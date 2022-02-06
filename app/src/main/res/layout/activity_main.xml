@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".View.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/who_am_i"
+            android:textSize="40sp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/driver_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/driver"
+            android:padding="15dp"
+
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/hitchhiker_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hitchhiker"
+            android:padding="15dp"
+            android:textSize="50sp" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/lastDrive_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastDrive"
+            android:padding="15dp"
+            android:backgroundTint="@color/red"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

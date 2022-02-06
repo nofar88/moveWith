@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#47BDE5"
+    tools:context=".View.Finish">
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finish"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/contact_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/contact_sms"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/contact_whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/contact_whatsapp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/car"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

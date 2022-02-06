@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MoveWith</string>
+    <string name="who_am_i">Who am I?</string>
+    <string name="driver">Driver</string>
+    <string name="hitchhiker">Hitchhiker</string>
+    <string name="name">full name</string>
+    <string name="age">age</string>
+    <string name="city">city</string>
+    <string name="street">street</string>
+    <string name="number">number</string>
+    <string name="street_number">street_number</string>
+    <string name="cost">cost</string>
+    <string name="sex">sex</string>
+    <string name="time">time</string>
+    <string name="sorce">sorce</string>
+    <string name="dest">dest</string>
+    <string name="details">details</string>
+    <string name="weredoigo">were do i go</string>
+    <string name="WereAmI">were am i</string>
+    <string name="detaillsH">detaillsH</string>
+    <string name="Preprans">Preprans</string>
+    <string name="success">The information was uploaded successfully</string>
+    <string name="LookingForAMatch">Looking for a match</string>
+    <string name="finish">Match complete, Contact information will be passed to both parties Have a nice trip.</string>
+    <string name="date">date</string>
+    <string name="lastDrive">lastDrive</string>
+    <string name="contact_sms">Contact via sms</string>
+    <string name="contact_whatsapp">Contact via Whatsapp</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

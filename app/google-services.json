@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538828875955",
+    "project_id": "movewith-919f9",
+    "storage_bucket": "movewith-919f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538828875955:android:a395876761399fff0468c6",
+        "android_client_info": {
+          "package_name": "com.example.movewith"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538828875955-nlhlhnjdd4s5c704n7ov14co6bcjo8eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnvctRZRhiqevh7oqakLv6ZTiYeXmBCWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538828875955-nlhlhnjdd4s5c704n7ov14co6bcjo8eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

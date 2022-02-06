@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoveWith</string>
+    <string name="who_am_i">מי אני?</string>
+    <string name="driver">נהג</string>
+    <string name="hitchhiker">טרמפיסט</string>
+    <string name="name">שם פרטי ושם משפחה</string>
+    <string name="age">גיל</string>
+    <string name="city">עיר</string>
+    <string name="street">רחוב</string>
+    <string name="number">מספר טלפון</string>
+    <string name="street_number">מספר רחוב</string>
+    <string name="cost">עלות הנסיעה</string>
+    <string name="sex">זכר או נקבה</string>
+    <string name="time">שעת יציאה</string>
+    <string name="sorce">נקודת התחלה</string>
+    <string name="dest">נקודת סיום</string>
+    <string name="details">פרטי הנהג</string>
+    <string name="weredoigo">לאן אני נוסע</string>
+    <string name="WereAmI">איפה אני נמצא</string>
+    <string name="detaillsH">פרטי הטרמפיסט</string>
+    <string name="Preprans">העדפות נסיעה</string>
+    <string name="success">המידע הועלה בהצלחה</string>
+    <string name="LookingForAMatch">מחפש התאמה</string>
+    <string name="finish">ההתאמה הושלמה, פרטי איש הקשר יועברו לשני הצדדים נסיעה נעימה.</string>
+    <string name="date">תאריך נסיעה</string>
+    <string name="lastDrive">נסיעה מתוכננת</string>
+    <string name="contact_sms">שליחת סמס</string>
+    <string name="contact_whatsapp">שליחת ווטסאפ</string>
+</resources>
